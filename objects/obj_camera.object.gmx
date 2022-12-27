@@ -73,7 +73,7 @@ else {
   
 }
 
-view_xview[0] = clamp(obj_player.x-view_wview[0]/2+xOff,0,room_width +view_wview[0]/2);
+view_xview[0] = clamp(obj_player.x-view_wview[0]/2+xOff,0,room_width -view_wview[0]);
 view_yview[0] = clamp(obj_player.y-view_hview[0]/2+yOff,0,room_height-view_hview[0]);
 </string>
           </argument>

@@ -27,6 +27,9 @@
             <kind>1</kind>
             <string>///0. (Variables)
 
+//Direction
+dir = 90;
+
 //Mini map
 bkg_x = background_x[1];
 bkg_y = background_y[1];
@@ -42,9 +45,9 @@ image_speed = 0.15;
   
   //Values
   hace = 0.4;
-  hmin = 0.8;
+  hmin = 0.55;
   hmax = 1.6;
-  hfri = 0.05;
+  hfri = 0.045;
 
 //Life
 hp = 10;
@@ -52,7 +55,8 @@ hit = 0;
 hited = 0;
 
 //Sprite
-xscale = 1;
+xscale = image_xscale;
+image_xscale = 1;
 </string>
           </argument>
         </arguments>
@@ -116,10 +120,14 @@ if (hit &gt;= 0) {
   if dirx == 0 {hspd = clamp(scr_friction(hspd,hfri), -hmin, +hmin);}
   if diry == 0 {vspd = clamp(scr_friction(vspd,hfri), -hmin, +hmin);}
   
+  
+  image_speed = 0.22;
   //Sprites
-  if diry = -1 {sprite_index = spr_player_up;} else
-  if diry = +1 {sprite_index = spr_player_dw;} else
-  if dirx != 0 {sprite_index = spr_player_rig; xscale = sign(dirx)}
+  if diry = -1 {sprite_index = spr_player_up;   dir = 90} else
+  if diry = +1 {sprite_index = spr_player_dw;   dir = 270} else
+  if dirx != 0 {sprite_index = spr_player_rig;  xscale = sign(dirx); dir = point_direction(0,0,dirx,0);} else {
+    image_speed = 0.15;
+  }
 }
 
 //Dano
@@ -306,6 +314,9 @@ if (hit &lt; 0 and hited &lt; 0) {
   
     //Draw
     draw_self();
+    
+    //Chapéu
+    draw_sprite_ext(scr_sprite_direction(spr_bone_side,spr_bone_up,spr_bone_dw),image_index,x,y,xscale,1,0,c_white,1);
   
   //Reset
   image_xscale = 1;

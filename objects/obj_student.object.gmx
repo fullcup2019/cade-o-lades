@@ -28,6 +28,7 @@
             <string>image_speed = 0.2;
 
 ok = 0;
+active = 0;
 </string>
           </argument>
         </arguments>
@@ -50,16 +51,21 @@ ok = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ok = 0 {
-  y += 0.5;
-  image_speed = 0.15;
-  
-}
+            <string>if active {
 
-else {
-  ok--; 
-  image_speed = 0;
+
+  if ok = 0 {
+    y += 0.5;
+    image_speed = 0.15;
+    
+  }
+  
+  else {
+    ok--; 
+    image_speed = 0;
+  }
 }
+else if (y &gt; view_yview[0] -24) {active = 1}
 </string>
           </argument>
         </arguments>

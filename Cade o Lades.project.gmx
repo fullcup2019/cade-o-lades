@@ -15,10 +15,16 @@
         <sprite>sprites\spr_player_up</sprite>
         <sprite>sprites\spr_player_rig</sprite>
         <sprite>sprites\spr_player_dw</sprite>
-        <sprite>sprites\spr_student</sprite>
       </sprites>
       <sprites name="Demage">
         <sprite>sprites\spr_player_banana_slip</sprite>
+      </sprites>
+      <sprites name="Costumes">
+        <sprites name="Bone">
+          <sprite>sprites\spr_bone_dw</sprite>
+          <sprite>sprites\spr_bone_up</sprite>
+          <sprite>sprites\spr_bone_side</sprite>
+        </sprites>
       </sprites>
     </sprites>
     <sprites name="Hud">
@@ -31,6 +37,11 @@
     </sprites>
     <sprites name="Obstacles">
       <sprite>sprites\spr_banana</sprite>
+      <sprite>sprites\spr_student</sprite>
+      <sprite>sprites\spr_student_create</sprite>
+    </sprites>
+    <sprites name="Decoration">
+      <sprite>sprites\spr_tree</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -38,10 +49,20 @@
     <background>background\bkg_map</background>
     <background>background\bkg_map_bkp</background>
     <background>background\background3</background>
+    <backgrounds name="Map">
+      <background>background\bkg_buraco_do_vento_size</background>
+      <background>background\bkg_buraco_do_vento</background>
+      <background>background\bkg_tapete_vermelho_size</background>
+      <background>background\bkg_tapete_vermelho</background>
+      <background>background\background10</background>
+      <background>background\background9</background>
+      <background>background\bkg_tapete_vermelho_texture</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_friction.gml</script>
+    <script>scripts\scr_sprite_direction.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Player">
@@ -58,12 +79,18 @@
       <object>objects\obj_banana</object>
       <object>objects\obj_student</object>
       <object>objects\obj_create_sudent</object>
+      <object>objects\object8</object>
     </objects>
     <objects name="Itens">
       <object>objects\obj_hourglass</object>
     </objects>
+    <objects name="decoration">
+      <object>objects\obj_tree</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_tapete_vermelho</room>
+    <room>rooms\rm_buraco_do_vento</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>
