@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1440</width>
   <height>192</height>
-  <vsnap>2</vsnap>
-  <hsnap>24</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -57,17 +57,32 @@
     <instance objName="obj_banana" x="1080" y="24" name="inst_348486D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_banana" x="1176" y="72" name="inst_FB3972AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_banana" x="1080" y="96" name="inst_5F34DAE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block" x="837" y="0" name="inst_9C8C1146" locked="0" code="" scaleX="25.1304340362549" scaleY="1.29166662693024" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="844" y="-3" name="inst_9C8C1146" locked="0" code="" scaleX="25.1304340362549" scaleY="1.29166662693024" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="1224" y="142" name="inst_84E0BEB2" locked="0" code="" scaleX="0.75" scaleY="0.875" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="1398" y="141" name="inst_D6BCBBB9" locked="0" code="" scaleX="0.583333313465118" scaleY="0.91304349899292" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="576" y="118" name="inst_6799C7F0" locked="0" code="" scaleX="24.9599990844727" scaleY="3.73913049697876" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block" x="576" y="0" name="inst_56D389D3" locked="0" code="" scaleX="10.875" scaleY="2.08333325386047" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="707" y="0" name="inst_56D389D3" locked="0" code="" scaleX="5" scaleY="1.95833337306976" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="1440" y="2" name="inst_7CA307C0" locked="0" code="" scaleX="1.08333337306976" scaleY="7.96000003814697" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="1152" y="192" name="inst_A2606C48" locked="0" code="" scaleX="13.0833330154419" scaleY="1.41999995708466" colour="4294967295" rotation="0"/>
     <instance objName="obj_banana" x="984" y="40" name="inst_294DB771" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_banana" x="864" y="96" name="inst_43D628B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_banana" x="840" y="52" name="inst_315955AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_banana" x="720" y="76" name="inst_F20167D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object10" x="1224" y="168" name="inst_B22CC88D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object10" x="1212" y="192" name="inst_3FD79741" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object10" x="1404" y="169" name="inst_3B7FC4FA" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object10" x="1415" y="192" name="inst_62BDCC09" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="1395" y="168" name="inst_FA91F8FB" locked="0" code="" scaleX="0.347826093435287" scaleY="0.28999999165535" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="1176" y="138" name="inst_2410E856" locked="0" code="" scaleX="0.782608687877655" scaleY="0.20833332836628" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="1191" y="145" name="inst_1B246C96" locked="0" code="" scaleX="0.75" scaleY="0.20833332836628" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="1206" y="152" name="inst_1A334BE5" locked="0" code="" scaleX="0.782608687877655" scaleY="0.20833332836628" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slope" x="1175" y="177" name="inst_AB44B799" locked="0" code="" scaleX="1.73913037776947" scaleY="0.695652186870575" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slope" x="576" y="85" name="inst_5D9BA9A9" locked="0" code="" scaleX="6.25" scaleY="1.29166662693024" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slope_down" x="707" y="17" name="inst_8DD779E7" locked="0" code="" scaleX="-5.65217399597168" scaleY="1.29166662693024" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="527" y="0" name="inst_63BD1BE5" locked="0" code="" scaleX="7.54166650772095" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="object14" x="1383" y="12" name="inst_F7FABEC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object14" x="1131" y="9" name="inst_F74D229B" locked="0" code="" scaleX="1.61000001430511" scaleY="1.08695650100708" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slope_down" x="827" y="26" name="inst_1AA42E1F" locked="0" code="" scaleX="0.709999978542328" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

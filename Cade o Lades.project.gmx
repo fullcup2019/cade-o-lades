@@ -34,6 +34,9 @@
     </sprites>
     <sprites name="Bricks">
       <sprite>sprites\spr_block</sprite>
+      <sprite>sprites\spr_ball</sprite>
+      <sprite>sprites\spr_slope</sprite>
+      <sprite>sprites\spr_slope_down</sprite>
     </sprites>
     <sprites name="Obstacles">
       <sprite>sprites\spr_banana</sprite>
@@ -43,6 +46,7 @@
     <sprites name="Decoration">
       <sprite>sprites\spr_tree</sprite>
     </sprites>
+    <sprite>sprites\spr_pilar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bk_grid</background>
@@ -52,6 +56,7 @@
     <backgrounds name="Map">
       <background>background\bkg_buraco_do_vento_size</background>
       <background>background\bkg_buraco_do_vento</background>
+      <background>background\bkg_buraco_do_vento_bkp</background>
       <background>background\bkg_tapete_vermelho_size</background>
       <background>background\bkg_tapete_vermelho</background>
       <background>background\background10</background>
@@ -74,6 +79,9 @@
     </objects>
     <objects name="Bricks">
       <object>objects\obj_block</object>
+      <object>objects\obj_slope</object>
+      <object>objects\obj_slope_down</object>
+      <object>objects\object14</object>
     </objects>
     <objects name="Obstacles">
       <object>objects\obj_banana</object>
@@ -86,11 +94,12 @@
     </objects>
     <objects name="decoration">
       <object>objects\obj_tree</object>
+      <object>objects\object10</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_tapete_vermelho</room>
     <room>rooms\rm_buraco_do_vento</room>
+    <room>rooms\rm_tapete_vermelho</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>

@@ -159,6 +159,9 @@ else if (hit &lt; 0) {
             <kind>1</kind>
             <string>///1. (Physics)
 
+while place_meeting(x+hspd,y,obj_slope)       {y--;}
+while place_meeting(x+hspd,y,obj_slope_down)  {y++;}
+
 //Horizontal Solid collision
 if place_meeting(x+hspd,y,obj_block)      {while !place_meeting(x+sign(hspd),y,obj_block)       {x += sign(hspd);} hspd = 0;}
 
@@ -310,7 +313,7 @@ if (hit &lt; 0 and hited &lt; 0) {
 //Self sprite
   
   //Setting
-  image_xscale = xscale
+  image_xscale = xscale;
   
     //Draw
     draw_self();
@@ -320,6 +323,7 @@ if (hit &lt; 0 and hited &lt; 0) {
   
   //Reset
   image_xscale = 1;
+  image_yscale = 1;
 
 //Hp max
 hp = clamp(hp,0,10);
