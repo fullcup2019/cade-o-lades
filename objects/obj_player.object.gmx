@@ -160,7 +160,7 @@ else if (hit &lt; 0) {
             <string>///1. (Physics)
 
 while place_meeting(x+hspd,y,obj_slope)       {y--;}
-while place_meeting(x+hspd,y,obj_slope_down)  {y++;}
+while place_meeting(x+hspd,y,obj_slope_down)  {y++; if vspd &lt; 0 {vspd = 0;}}
 
 //Horizontal Solid collision
 if place_meeting(x+hspd,y,obj_block)      {while !place_meeting(x+sign(hspd),y,obj_block)       {x += sign(hspd);} hspd = 0;}

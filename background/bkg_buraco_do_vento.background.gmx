@@ -14,6 +14,6 @@
   </TextureGroups>
   <For3D>0</For3D>
   <width>1440</width>
-  <height>192</height>
+  <height>384</height>
   <data>images\bkg_buraco_do_vento.png</data>
 </background>
